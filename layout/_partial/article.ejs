@@ -1,5 +1,5 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
-  
+
   <div class="article-inner">
     <% if (post.link || post.title){ %>
       <header class="article-header">
@@ -25,7 +25,7 @@
       <% if (page.path === "tags/index.html"){ %>
         <%- list_tags() %>
       <% } %>
-        
+
     </div>
   </div>
   <% if (!index){ %>
@@ -42,8 +42,8 @@
       owner: 'your github account',
       repo: 'your repo',
       oauth: {
-        client_id: 'your client_id',
-        client_secret: 'your client_secret',
+        client_id: '02e374cdfcdd6f0efef8',
+        client_secret: '31d95ada85208395413ff0554e7eec499c6b22c3',
       },
     })
     gitment.render('comments')

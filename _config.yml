@@ -3,7 +3,9 @@ menu:
   Home: /
   Archives: /archives
   Tag: /tags
-  Github: https://github.com/hejianxian
+  Github: https://github.com/dervn
+  Wiki: https://dervn.github.io/wiki/
+  About: about/
 rss: /atom.xml
 
 # Content
